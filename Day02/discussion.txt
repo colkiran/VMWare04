@@ -1,0 +1,122 @@
+1! = 1
+2! = 2
+145 = 1! + 4! + 5!
+    = 1  + 24 + 120
+	= 145
+
+? => 40585
+
+
+Data Structures
+---------------
+1. lists
+2. dictionaries
+3. tuples
+4. sets
+
+interpolation
+-------------
+var = 10
+print(f"{var}, {(2 + 5) * var}")
+
+
+Lists
+-----
+similar to arrays
+
+
+what are arrays?
+----------------
+1. collection of homogenous data
+2. memory allocation is contigious
+
+
+Lists
+-----
+1. list is a collection of hetrogenous data
+2. memory allocation is not contigious
+3. ordered collection
+4. lists are mutable
+5. lists are subscriptable
+6. lists are enclosed in [ ]
+
+'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort'
+
+
+
+
+1, 2, 3, 1, 1, 1, 
+0, 1, 2, 3, 4, 5, 6, 7
+
+
+assignment
+-----------
+def sortMonth():
+    return 0
+
+months = ['aug', 'oct', 'dec', 'feb', 'sep', 'jan', 'apr', 'nov', 'mar', 'jun', 'may', 'jul']
+# sort these months according to the calendar
+
+res = sorted(months, key=sortMonth)
+
+
+Dictionary
+----------
+1. it is also called as associative array
+	
+index  =  0		1    2    3    4
+arr		= 'a', 'b', 'c', 'd', 'e'
+
+
+=> {0 :'a', 1 :'b', 2 :'c', 3 :'d', 4 :'e'}
+
+0, 1, 2, 3, 4 => keys (keys can be user defined) 
+
+
+2. all keys in a dictionary will be unique
+
+3. its an unordered collection
+
+4. it is mutable
+
+5. it is stored in {}, with key and value pairs
+
+
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
