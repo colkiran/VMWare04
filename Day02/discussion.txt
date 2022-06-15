@@ -82,7 +82,8 @@ arr		= 'a', 'b', 'c', 'd', 'e'
 5. it is stored in {}, with key and value pairs
 
 
-'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem', 'setdefault', 'update', 'values'
+'clear', 'copy', 'fromkeys', 'get', 'items', 'keys', 'pop', 'popitem',
+'setdefault', 'update', 'values'
 
 
 
