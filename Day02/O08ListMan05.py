@@ -1,5 +1,5 @@
 
-
+"""
 l1 = list(range(1, 11))
 print(f"l1 Before :{l1}")
 
@@ -55,11 +55,26 @@ srtCities = sorted(cities, key=len, reverse=True)
 print(f"Sorted :{srtCities}")
 
 print("-" * 40)
-def sortMonth():
-    return 0
+
+"""
+from calendar import month_name
+# print(list(month_name))
+
+def sortMonth(mon):
+    l = []
+    for m in list(month_name):
+        l.append(m[0:3].lower())
+    if mon in l:
+        return l.index(mon)
+
 
 months = ['aug', 'oct', 'dec', 'feb', 'sep', 'jan', 'apr', 'nov', 'mar', 'jun', 'may', 'jul']
 # sort these months according to the calendar
+print(f"months       :{months}")
 
-res = sorted(months, key=sortMonth)
+sortedMonths = sorted(months, key=sortMonth)
+print(f"sortedMonths :{sortedMonths}")
 
+print(sortMonth("naj"))
+
+# [1, 2, 3, None, 4, 5]

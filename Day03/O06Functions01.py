@@ -99,3 +99,13 @@ def extract_details(**details):
     print(f"Opponent :{details['oppn']}")
 
 extract_details(name="Sachin", score=98, oppn="Sri Lanka", venue="Gale")
+
+print("-" * 40)
+def enrollment(name, *tech, **marks):
+    print(f"Name :{name}")
+    print(f"tech :{tech}")
+    print(f"Marks :{marks}")
+
+
+enrollment("David", 'C', 'C++', 'C#', 'vb.net', 'asp.net', 'angularJS', 'ReactJS',
+           Xth='87%', XIIth='89%', degree='72%', pg='85%')
