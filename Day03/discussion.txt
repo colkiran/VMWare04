@@ -1,0 +1,88 @@
+Tuples
+------
+1. immutable lists
+2. ordered collection
+3. subscriptable
+4. enclosed in  ()
+
+
+sets
+-----
+1. elements of a set is unique
+2. sets are unordered collection
+3. they are mutable
+4. not subscriptable
+5. they are enclosed in {}
+
+Functions
+---------
+what are functions?
+
+1. pass parameters
+2. functions can return values
+3. recursive calls
+4. passing arguments
+5. scope of a variable
+6. lambdas
+7. doc strings
+8. decorator
+
+
+Lambdas
+-------
+they are anonymous functions with a single expression
+
+
+syntax -> lamdba var1, var2, var3..: expression
+
+result of the expression will be the return value
+
+
+Scopes (functions)
+------------------
+
+1. global
+
+2. local
+
+3. non local
+
+access a variable -> print the value + change the value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
